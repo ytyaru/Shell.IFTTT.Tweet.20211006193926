@@ -1,0 +1,10 @@
+IFTTTで作ったTweetAPIを実行する。	${VERSION}
+\e[1m${THIS_NAME} [-i URL] MSG MSG MSG ...\e[0m
+\e[4mOptions:\e[0m
+  \e[1m-i\e[0m  画像URL
+\e[4mExamples:\e[0m
+  ${THIS_NAME}
+  ${THIS_NAME} 'この文章をTweetする'
+  ${THIS_NAME} '1行目。\\\\n2行目。'
+  ${THIS_NAME} '1行目。' '3行目。' '5行目'
+  ${THIS_NAME} -i https://img.png 'この画像をみて！'
